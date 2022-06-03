@@ -5,5 +5,7 @@ Print 'hello world!'
 
 """
 
-print("hello world!".upper())
+msg = "hello, world!"
+
+print(f"{msg.upper()}")
 
