@@ -13,7 +13,9 @@ __author__ = "Rafael Z Tanganelli"
 
 import sys
 
-msg = sys.argv[1]
+arguments = sys.argv[1:]
 
-print(f"{msg.upper()}")
+for arg in arguments:
+    print(f"{arg.upper()}")
+
 
